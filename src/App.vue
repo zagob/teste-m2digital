@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col sm:gap-6 gap-4 max-w-[980px] mx-auto">
+  <div class="flex flex-col gap-2 max-w-[980px] mx-auto">
     <Category
       title="Internet"
       description="Selecione um plano de internet para continuar"
