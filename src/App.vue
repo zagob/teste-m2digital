@@ -104,10 +104,13 @@ export default defineComponent({
   },
   mounted() {
     api
-      .get("/internet")
-      .then((response) => (this.products.internet = response.data));
-    api.get("/tv").then((response) => (this.products.tv = response.data));
-    api.get("/fixo").then((response) => (this.products.fixo = response.data));
+      .get("")
+      .then((response) => {
+        this.products.internet = response.data.internet;
+        this.products.tv = response.data.tv;
+        this.products.fixo = response.data.fixo;
+      })
+      .catch((err) => console.log("e", err));
   },
   methods: {
     setInput(id: number) {
