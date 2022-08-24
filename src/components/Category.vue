@@ -4,7 +4,9 @@
       <h2 class="text-lg text-purple-700">{{ title }}</h2>
       <span class="text-md text-gray-500">{{ description }}</span>
     </div>
-    <slot />
+    <div class="w-full overflow-x-auto py-4">
+      <slot />
+    </div>
   </div>
 </template>
 
