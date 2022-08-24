@@ -4,7 +4,7 @@
       <h2 class="text-lg text-purple-700">{{ title }}</h2>
       <span class="text-md text-gray-500">{{ description }}</span>
     </div>
-    <div class="w-full overflow-x-auto py-4">
+    <div class="w-full overflow-x-auto py-4 sm:py-0">
       <slot />
     </div>
   </div>
