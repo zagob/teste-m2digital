@@ -1,0 +1,48 @@
+{
+  "internet": [
+    {
+      "id": 1,
+      "name": "100 Mega",
+      "price": 89.9
+    },
+    {
+      "id": 2,
+      "name": "200 Mega",
+      "price": 76.8
+    },
+    {
+      "id": 3,
+      "name": "300 Mega",
+      "price": 50.55
+    }
+  ],
+  "tv": [
+    {
+      "id": 4,
+      "name": "Ultimate HD",
+      "price": 256.42
+    },
+    {
+      "id": 5,
+      "name": "Full HD",
+      "price": 499.99
+    }
+  ],
+  "fixo": [
+    {
+      "id": 6,
+      "name": "Ilimitado",
+      "price": 89.9
+    },
+    {
+      "id": 7,
+      "name": "Fixo",
+      "price": 76.8
+    },
+    {
+      "id": 8,
+      "name": "brasil",
+      "price": 50.55
+    }
+  ]
+}
