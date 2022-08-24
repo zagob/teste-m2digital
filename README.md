@@ -23,7 +23,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 O Projeto consiste em um carrinho de compras com três categorias podendo selecionar um produto por categoria, podendo variar o preço de acordo com produto escolhido.
 <br>
 
-- <a href="/">Acessar App</a>
+- <a href="https://teste-m2digital.vercel.app/">Acessar App</a>
 
 ## 🚀 Como executar
 
